@@ -1,5 +1,15 @@
 # React Native Assignment
 
+# Drive Link For Screenshots and Screen Recording
+
+https://drive.google.com/drive/folders/1YTbiZZpFqtdbxaNqQW9s4IvWUDaRU9QJ
+
+# Notes:-
+
+I did not have access to the icons in developer mode, so I was unable to retrieve all the required icons. As a result, the navigation icons currently used are placeholders based on the available assets. I appreciate your understanding.
+
+If you have any questions or require further clarification, feel free to reach out. +91 8789067634 or mukeshk0326@gmail.com
+
 ## Overview
 
 This project is a React Native application built using TypeScript as part of the Fleapo hiring assessment. The application follows best practices in folder structure, component reusability, and project management.
@@ -7,8 +17,9 @@ This project is a React Native application built using TypeScript as part of the
 ## Features
 
 - **Screens Implemented:**
-  - My Profile
-  - People List
+  - My Profile ( ProfileHeader - TopRestraunts - RecentActivity - GraphPage - Lists - NavigationPage )
+  - People List -> Search filters for (friends, verified and everyone)
+  - Dummy Screens (Coming soon Text)
 - **Reusable Components:**
   - Button
 - **Navigation:**
@@ -74,7 +85,3 @@ This project is a React Native application built using TypeScript as part of the
 - Project uploaded to GitHub
 - README includes setup instructions
 - Screenshots/screen recording provided
-
-## Notes
-
-If you have any questions or require further clarification, feel free to reach out.
