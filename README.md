@@ -1,97 +1,80 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# React Native Assignment
 
-# Getting Started
+## Overview
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+This project is a React Native application built using TypeScript as part of the Fleapo hiring assessment. The application follows best practices in folder structure, component reusability, and project management.
 
-## Step 1: Start Metro
+## Features
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+- **Screens Implemented:**
+  - My Profile
+  - People List
+- **Reusable Components:**
+  - Button
+- **Navigation:**
+  - React Navigation for screen transitions
+  - Bottom Tab Navigator (where applicable)
+- **State Management:**
+  - React Context API for theme and global state management
+- **Styling:**
+  - Used React Native’s `StyleSheet` API
+  - Maintains proper spacing, margins, and paddings as per Figma design
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+## Folder Structure
 
-```sh
-# Using npm
-npm start
+````
+/root
+│── src
+│   ├── assets            # Contains fonts, images, and icons
+│   │   ├── fonts         # Custom fonts for typography
+│   │   ├── icons         # SVG and PNG icons
+│   │   │   ├── navigation # Icons related to navigation
+│   │   ├── images        # Image assets
+│   │       ├── activity  # Activity-related images
+│   │       ├── dishes    # Images related to dishes
+│   ├── components        # Reusable UI components (Buttons, Cards, etc.)
+│   ├── navigation        # Navigation setup using React Navigation
+│   ├── screens           # App screens (My Profile, People List, etc.)
+│   ├── utils             # Utility functions and theme configurations
+│   │   ├── theme.ts      # Global theme for colors, typography, and spacing
+│   │   ├── Types.ts      # TypeScript types
+│   ├── App.tsx           # Root application file
+│── .eslintc.js           # ESLint configuration
+│── .prettierrc.js        # Prettier configuration
+│── .gitignore            # Git ignore file
+│── package.json          # Project dependencies
+│── README.md             # Project documentation
 
-# OR using Yarn
-yarn start
-```
 
-## Step 2: Build and run your app
+## Installation & Setup
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+1. Clone the repository:
+   ```sh
+   git clone <repository_url>
+   cd <project_name>
+````
 
-### Android
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Run the application:
+   ```sh
+   npx react-native run-android  # For Android
+   npx react-native run-ios      # For iOS (Mac only)
+   ```
 
-```sh
-# Using npm
-npm run android
+## Assets & Theme
 
-# OR using Yarn
-yarn android
-```
+- Extracted icons, images, and colors from Figma
+- Used a global theme file (`theme.ts`) for colors, typography, and spacing
 
-### iOS
+## Submission Details
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+- Project uploaded to GitHub
+- README includes setup instructions
+- Screenshots/screen recording provided
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+## Notes
 
-```sh
-bundle install
-```
-
-Then, and every time you update your native dependencies, run:
-
-```sh
-bundle exec pod install
-```
-
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+If you have any questions or require further clarification, feel free to reach out.
